@@ -24,6 +24,12 @@ export const Field = styled(FormikField)`
   }
 `;
 
+export const Label = styled.label`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`;
+
 export const Button = styled.button`
   padding: 5px 10px;
 
